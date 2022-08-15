@@ -9,7 +9,7 @@ const app = express()
 
 app.use(express.json())
 const path = require('path')
- }
+ 
 
 app.use('/api/user', userRoute)
 app.use('/api/admin',adminRoute)
@@ -25,6 +25,7 @@ if(process.env.NODE_ENV==='production')
           res.sendFile(path.resolve(__dirname, 'client/build/index.html'));
 
     })
+}
 
 
 const port = process.env.PORT || 5001

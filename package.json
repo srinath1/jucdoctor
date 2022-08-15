@@ -1,7 +1,7 @@
 {
-  "name": "sheycars",
+  "name": "jucdoctor",
   "version": "1.0.0",
-  "description": "",
+  "description": "The doctor appointment app",
   "main": "index.js",
   "engines": {
     "node": "16.14.2",
